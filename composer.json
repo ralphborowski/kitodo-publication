@@ -45,7 +45,8 @@
 		"symfony/serializer": "^5.0",
 		"renanbr/bibtex-parser": "*",
 		"galbar/jsonpath": "^1.1",
-		"fluidtypo3/vhs": "^6.0.5"
+		"fluidtypo3/vhs": "^6.0.5",
+        "symfony/yaml": "^5.4"
 	},
     "require-dev": {
 		"roave/security-advisories": "dev-latest",

@@ -14,6 +14,8 @@
 
 use EWW\Dpf\Command\IndexByDatabase;
 use EWW\Dpf\Command\IndexByFile;
+use EWW\Dpf\Command\ExportConfigurationAsYAML;
+#use EWW\Dpf\Command\ImportConfigurationAsYAML;
 
 if (!defined('TYPO3_MODE')) {
     die('Access denied.');
@@ -26,4 +28,10 @@ return [
     'dpf:indexByDatabase' => [
         'class' => IndexByDatabase::class
     ],
+    'dpf:exportConfigurationAsYAML' => [
+        'class' => ExportConfigurationAsYAML::class
+    ],
+ #   'dpf:importConfigurationAsYAML' => [
+ #       'class' => ImportConfigurationAsYAML::class
+ #   ],
 ];
